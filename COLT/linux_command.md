@@ -13,3 +13,11 @@
 # cd <folder name> -> To Change Directory
 
 # cd .. -> To Get Back One Level Directory
+
+# touch <file name> -> To Create File
+
+# mkdir <folder name> -> To Create Folder
+
+# rm <file name> -> To Remove File. No Recyle Bin (Permanetly)
+
+# rm -rf <folder name> -> To Remove Folder. No Recyle Bin (Permanetly)
