@@ -25,9 +25,7 @@ git add .
 
 . -> This Mean Select All Files
 
-// We Can Choose Also File
-
-git add file1.js file2.js 
+We Can Choose Also File -> git add file1.js file2.js 
 
 
 # 6. Commit
