@@ -1,22 +1,11 @@
-# 1. Create Git Repository
+## Atomic Commit
+If Possaible , try to commit a single change / fix at a time.
 
-git init - y
+## Try To Use Presnt Tense (Git Recommand)
 
-init -> Intialize
-
-# 2. Show Status Of Git Repository
-
-git status
-
-# 3. Add all Files To Staging Area
-
-git add .
-
-# 4. Add separate file to Staging area
-
-git add <file name>
-
-# 5. Commited New Work
-
-git commit -m "<message>"
+## VIM Command - git commit only
+1. Press i (enter) -> Insert Mode
+2. Write The Commit Message (At The Top)
+3. Press Esc key to exit insert mode
+4. Press :wq and enter to quit and save
 
