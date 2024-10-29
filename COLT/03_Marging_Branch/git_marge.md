@@ -6,3 +6,11 @@ branch then we will use fast forward marge.
 
 ** Rember Fast Forward Marging will happened when no changes in Main Branch since work started
 on Second Branch.
+
+## Marging With Recursive Strategy
+
+when main branch is ahead of second branch and if we try to merge second branch with main, it
+will us recursive marging. 
+
+** Remember Recursive Marging will happen when main branch is ahead of second branch.
+and it will default editor to recursive marging.
