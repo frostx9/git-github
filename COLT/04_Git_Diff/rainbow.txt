@@ -2,5 +2,7 @@ red
 orange
 yellow
 green
-blue
-purple
+indigo
+violet
+BLue
+Black

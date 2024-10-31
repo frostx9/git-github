@@ -15,7 +15,7 @@ when main branch is ahead of second branch and if we try to merge second branch 
 will us recursive marging. 
 
 ** Remember Recursive Marging will happen when main branch is ahead of second branch.
-and it will default editor to recursive marging.
+and it will use default editor to recursive marging.
 
 git merge <branch name>
 
