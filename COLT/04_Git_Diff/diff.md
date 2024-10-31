@@ -30,3 +30,12 @@ Explaintion: +2,5 this means from file b 7 line added from line 2
 
 Explaintion: ' - 'this symbol means deleted line from file a 
 Explaintion: ' + ' this symbol means added line from file b
+
+## 3. Show All Chages From Last Commit
+git diff HEAD .\rainbow.txt 
+
+## 4. Show All Chages Between TWo Branches
+git diff <branch1>..<branch2>
+
+## 5. Show All Chages Between TWo Commits
+git diff <commit1 hash>..<commit2 hash>
