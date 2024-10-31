@@ -19,3 +19,32 @@ and it will default editor to recursive marging.
 
 git merge <branch name>
 
+
+## Merge Conflicts
+When we try to merge two branches and some changes are added in both branches in same file, then
+it will show merge conflict. Because git can not decide which changes to keep and which changes to discard.
+
+The contents from branch are trying to marge dispaly between 
+
+
+<<<<<<<<< HEAD (Current Changes)
+
+Content (From Current Branch) 
+
+============
+
+Content (From Branch Which we want to marge) 
+
+>>>>>>>>>>>> (Branch Name) 
+
+
+
+
+## Resolve Merge Conflicts
+
+# 1. Edit Manually
+
+# 2. Use Vs Code Editor 
+1. Accept Current Changes -> It Means Keep Current Branch Changes
+2. Accept Incoming Changes -> It Means Keep Incoming Branch Changes
+3. Accept Both Changes -> It Means Keep Both Branch Changes
