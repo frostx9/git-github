@@ -40,3 +40,14 @@ git checkout -- . / git checkout . -> This Will Discard All Changes
 ## Discarding Changes [New Way / New Command]
 
 git restore <file name> / git restore .
+
+
+## Discarding File By Commit
+
+git restore --source HEAD~<number> <file name>
+
+
+## Discarding File From Staging Area
+If we want to discard file from staging area thet we add to staging area by mistake
+
+git restore --staged <file name>
