@@ -51,3 +51,24 @@ git restore --source HEAD~<number> <file name>
 If we want to discard file from staging area thet we add to staging area by mistake
 
 git restore --staged <file name>
+
+
+## Reset Commit
+
+1. Soft Reset -> 
+
+git reset <commit id> / git reset HEAD~<number>     -> This Will Revet Back the Commit, but keep the changes as unstaged area. If we want to keep changes we can switch the branch with the modified files. 
+
+2. Hard Reset ->
+
+git reset --hard <commit id> / git reset --hard HEAD~<number>    -> This Will Revet Back the Commit, and remove all the changes.
+
+
+## Revert Commit
+
+Revert Commit but did same things as Reser Commit but it create a new commit and undo all the changes in the new commit.
+Basically it keep the record the commit which we want to undo 
+
+git revert <commit id> / git revert HEAD~<number>  -> It will open editor to write the commit message to revert the commit
+
+Bewware : It will create conflicts sometimes.
