@@ -28,3 +28,10 @@ git switch -  -> This will re-attach head to current branch
 git checkout HEAD~<number>
 
 ~ -> This Symbol Means Previous. So ~1 -> Mean Last Commit
+
+
+## Discarding Changes
+
+git chcheckout -- <file name>  -> This Will Discard Changes By Specific File
+
+git checkout -- . / git checkout . -> This Will Discard All Changes
