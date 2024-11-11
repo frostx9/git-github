@@ -30,8 +30,13 @@ git checkout HEAD~<number>
 ~ -> This Symbol Means Previous. So ~1 -> Mean Last Commit
 
 
-## Discarding Changes
+## Discarding Changes [Old Way / Old Command]
 
 git chcheckout -- <file name>  -> This Will Discard Changes By Specific File
 
 git checkout -- . / git checkout . -> This Will Discard All Changes
+
+
+## Discarding Changes [New Way / New Command]
+
+git restore <file name> / git restore .
