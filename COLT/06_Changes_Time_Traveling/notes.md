@@ -66,7 +66,7 @@ git reset --hard <commit id> / git reset --hard HEAD~<number>    -> This Will Re
 
 ## Revert Commit
 
-Revert Commit but did same things as Reser Commit but it create a new commit and undo all the changes in the new commit.
+Revert Commit but did same things as Reset Commit but it create a new commit and undo all the changes in the new commit.
 Basically it keep the record the commit which we want to undo 
 
 git revert <commit id> / git revert HEAD~<number>  -> It will open editor to write the commit message to revert the commit
