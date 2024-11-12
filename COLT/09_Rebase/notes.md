@@ -10,3 +10,9 @@ Therefore branch will filles with extra merge commits. To avoid this problem we 
 
 When we apply rebase on our branch it will placed on the tip of the main branch last commit, and create new history 
 with new commits.
+
+To Rebase go to the branch where you working and type
+
+git rebase <branch name>
+
+ex : I working in feature branch. main branch is ahead by some commits, So in feature branch -> git rebase main
