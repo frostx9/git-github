@@ -11,7 +11,7 @@ It will show you the url of the remote repository
 
 ## To add a remote repository
 
-git remote add <any name> <url>
+git remote add <any remote name> <url>
 
 
 ## Rename Remote Repository
