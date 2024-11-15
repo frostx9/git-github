@@ -32,7 +32,9 @@ git checkout HEAD~<number>
 
 ## Discarding Changes [Old Way / Old Command]
 
-git chcheckout -- <file name>  -> This Will Discard Changes By Specific File
+** Discarding Changes -  Restore the original states of files before comenting the changes.
+
+git chcheckout -- <file name>  -> This Will Discard Changes By Specific File.
 
 git checkout -- . / git checkout . -> This Will Discard All Changes
 
@@ -44,20 +46,22 @@ git restore <file name> / git restore .
 
 ## Discarding File By Commit
 
-git restore --source HEAD~<number> <file name>
+git restore --source HEAD~<number> <file name> 
+
+It Help us to see what is in the file the back to the commit
 
 
-## Discarding File From Staging Area
-If we want to discard file from staging area thet we add to staging area by mistake
+## Discarding File From Staging Area 
+If we want to discard file from staging area (Commited Done) thet we add to staging area by mistake
 
 git restore --staged <file name>
 
 
-## Reset Commit
+## Reset  
 
 1. Soft Reset -> 
 
-git reset <commit id> / git reset HEAD~<number>     -> This Will Revet Back the Commit, but keep the changes as unstaged area. If we want to keep changes we can switch the branch with the modified files. 
+git reset <commit id> / git reset HEAD~<number>     -> This Will Revet Back to the Commit, but keep the changes as unstaged area. If we want to keep changes we can switch the branch with the modified files. 
 
 2. Hard Reset ->
 

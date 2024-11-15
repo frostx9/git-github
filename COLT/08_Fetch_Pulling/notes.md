@@ -27,11 +27,11 @@ Fetching allow us to download changes from remote repository but it will not aut
 It lests to see what other have been working on with out marge those changes into our local repo. To See The Changes we have to 
 checkout the branches by using   git checkout <branch name>
 
-git fetch <remote name> / git fetch
+git fetch <remote name> / git fetch  
 
-if remote name specified, by defaults from origin
+if remote name not specified, by defaults from origin. It will download all branches changes
 
-Specified Branch
+*Specified Branch*
 
 git fetch <remote name> <branch name>
 
