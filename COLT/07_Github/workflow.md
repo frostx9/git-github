@@ -45,3 +45,16 @@ fetching switch the feature branch
 5. Merge the feature branch with main branch
 
 5. Push The Code
+
+
+## Branch Protection Rules
+
+If u want to protect the branch so that no one can make any changes in that branch, then u can use branch protection rules.
+
+1. Go To The *Settings Tab*
+
+2. Click on *Add Clasics Branch Protection Rule*
+
+3. Select the branch which you want to protect via branch name into *Branches Name Pattern*
+
+4. Select the Options to Protect Marching Branch
