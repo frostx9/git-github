@@ -30,3 +30,7 @@ git config --global alias.l
 ex :
 [alias]
   cm = commit -m
+
+
+*List*
+https://github.com/GitAlias/gitalias
