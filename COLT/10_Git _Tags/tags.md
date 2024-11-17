@@ -89,4 +89,4 @@ example : git push origin v6.10
 
 
 
-git push <remote name> --tags -> It will push all new tags
+git push --tags -> It will push all new tags
