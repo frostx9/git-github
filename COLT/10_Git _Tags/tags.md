@@ -66,3 +66,27 @@ How To -> After Commenting the code we create Tag and push it to remote reposito
 git tag -a <tag name> -m "<message>"
 
 example : git tag -a v6.10 
+
+*git show* -> To Show all Details of Tag
+
+
+
+## Delte Tag
+
+git tag -d <tag name>
+
+example : git tag -d v6.10
+
+
+
+## Push Tag
+
+Push By A Single Tag
+
+git push <remote name> <tag name>
+
+example : git push origin v6.10
+
+
+
+git push --tags -> It will push all new tags
