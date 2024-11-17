@@ -13,7 +13,7 @@ Therefore branch will filles with extra merge commits. To avoid this problem we 
 When we apply rebase on our branch it will placed on the tip of the main branch last commit, and create new history 
 with new commits.
 
-To Rebase go to the branch where you working and type
+To Rebase go to the branch where you working and type the branch name which you want to rebase. 
 
 git rebase <branch name>
 
