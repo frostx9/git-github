@@ -59,3 +59,10 @@ git tag <tag name>
 example : git tag v6.10
 
 How To -> After Commenting the code we create Tag and push it to remote repository
+
+
+## Creating Annotated Tag
+
+git tag -a <tag name> -m "<message>"
+
+example : git tag -a v6.10 -m "Added New Feature"
