@@ -65,4 +65,4 @@ How To -> After Commenting the code we create Tag and push it to remote reposito
 
 git tag -a <tag name> -m "<message>"
 
-example : git tag -a v6.10 -m "Added New Feature"
+example : git tag -a v6.10 
